@@ -1,4 +1,4 @@
-# KYC Risk Dashboard – Mock Customer Analysis
+# KYC Dashboard – Mock Customer Analysis
 
 ## Overview
 This project demonstrates a **mock KYC (Know Your Customer) dashboard** built with Python, Streamlit, and Plotly.  
@@ -15,20 +15,18 @@ It showcases the creation of a synthetic customer dataset, risk flagging, verifi
   - High/Low Risk Customers by Verification Status (Stacked Bar Chart)  
 
 ## Dataset
-- Generated with [Faker](https://faker.readthedocs.io/)  
+- Generated with [Faker] 
 - Contains **1000 mock customers**  
 - 9 columns: `first_name`, `last_name`, `dob`, `country_code`, `id_number`, `email`, `phone`, `risk_flag`, `status`  
 - Binary `risk_flag`: `High` / `Low`  
 
 ## Tech Stack
 - Python 3.x  
-- [Streamlit](https://streamlit.io/) – interactive dashboard  
-- [Pandas](https://pandas.pydata.org/) – data manipulation  
-- [Plotly Express](https://plotly.com/python/plotly-express/) – visualizations  
-- [Faker](https://faker.readthedocs.io/) – mock data generation  
+- [Streamlit] – interactive dashboard  
+- [Pandas] – data manipulation  
+- [Plotly Express] – visualizations  
+- [Faker] – mock data generation  
+
 
 ## How to Run
-1. Clone the repository:  
-```bash
-git clone https://github.com/YOUR_USERNAME/kyc-risk-dashboard.git
-cd kyc-risk-dashboard
+To run the KYC Dashboard, clone the repository with `git clone https://github.com/abertm/kyc-risk-dashboard.git` and change into the folder using `cd kyc-risk-dashboard`. Then install the required dependencies with `pip install -r requirements.txt` and launch the dashboard with `streamlit run app.py`. This will start the dashboard in your web browser.
