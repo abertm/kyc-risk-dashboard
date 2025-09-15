@@ -133,6 +133,3 @@ st.plotly_chart(fig_risk_status)
 
 
 
-# Folder kyc
-# cd "C:\Users\afber\Documents\Data Analysis\Proyectos Code\Fintech_project\kyc_db"
-# streamlit run kyc_dashboard.py
